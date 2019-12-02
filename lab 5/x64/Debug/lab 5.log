@@ -1,0 +1,5 @@
+﻿  lab5.cpp
+  Vector3.cpp
+  Generating Code...
+  C:\Users\c00240102\Desktop\TRansofrotions\lab 5\Vector3.cpp(89) : error C4716: 'Vector3::ToString': must return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): error MSB6006: "CL.exe" exited with code 2.

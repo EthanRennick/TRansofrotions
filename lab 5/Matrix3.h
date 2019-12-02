@@ -26,20 +26,39 @@ public:
 		double _A21, double _A22, double _A23,
 		double _A31, double _A32, double _A33);
 
-	static Vector3 operator *(Matrix3 M1, Vector3 V1);
-
-	static Vector3 operator *(Vector3 V1, Matrix3 M1);
+	Vector3 operator *(Vector3 V1);
 
 	static Matrix3 Transpose(Matrix3 M1);
 	
-	static Matrix3 operator +(Matrix3 M1, Matrix3 M2);
+	 Matrix3 operator +(Matrix3 M2);
 	
-	static Matrix3 operator -(Matrix3 M1, Matrix3 M2);
+	 Matrix3 operator -(Matrix3 M2);
 	
-	static Matrix3 operator *(double x, Matrix3 M1);
+	 Matrix3 operator *(double x);
 
-	static Matrix3 operator *(Matrix3 M1, Matrix3 M2);
+	 Matrix3 operator *(Matrix3 M2);
 
+	static double Determinant(Matrix3 M1);
 
+	Vector3 Row(int i);
+
+	Vector3 Column(int i);
+
+	static Matrix3 Inverse(Matrix3 M1);
+
+	static Matrix3 Rotation(int _angle);
+
+	static Matrix3 Translate(int dx, int dy);
+
+	 Matrix3 Scale(int dx, int dy);
+
+	 Matrix3 operator -();
+
+	 Matrix3 RotationX(int _angle);
+
+	 Matrix3 RotationY(int _angle);
+
+	 Matrix3 RotationZ(int _angle);
 	
+	 Matrix3 Scale3D(int dx);
 };

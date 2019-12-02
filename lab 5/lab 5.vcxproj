@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lab 5.cpp" />
+    <ClCompile Include="lab5.cpp" />
     <ClCompile Include="Matrix3.cpp" />
     <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
