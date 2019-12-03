@@ -1,2 +1,20 @@
-﻿  Vector3.cpp
-  lab 5.vcxproj -> C:\Users\c00240102\Desktop\TRansofrotions\lab 5\Debug\lab 5.exe
+﻿  lab5.cpp
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\Quaternion.h(100,41): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\Quaternion.h(100,32): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\Quaternion.h(100,23): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(18,32): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(22,22): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(30,29): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(31,30): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(39,29): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(40,30): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(49,31): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(58,32): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(67,32): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(76,36): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(84,35): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(108,34): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(208,29): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\lab5.cpp(292,21): warning C4305:  'argument': truncation from 'double' to 'float'
+lab5.obj : error LNK2019: unresolved external symbol "public: class Vector3 __thiscall Vector3::Rotate(class Vector3,int)" (?Rotate@Vector3@@QAE?AV1@V1@H@Z) referenced in function _main
+C:\Users\C00240102\Desktop\TRansofrotions\lab 5\Debug\lab 5.exe : fatal error LNK1120: 1 unresolved externals

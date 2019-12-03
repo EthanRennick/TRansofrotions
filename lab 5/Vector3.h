@@ -7,16 +7,16 @@
 class Vector3
 {
 public:
-	double x;
-	double y;
-	double z;
+	float x;
+	float y;
+	float z;
 
 	Vector3();
-	Vector3(double x1, double y1, double z1);
+	Vector3(float x1, float y1, float z1);
 	
-	double Length();
+	float Length();
 
-	double LengthSquared();
+	float LengthSquared();
 
 	void Normalise();
 
@@ -26,9 +26,7 @@ public:
 
 	 Vector3 operator -();
 
-	 double operator *(Vector3 V2);
-
-	 Vector3 operator *(double k);
+	 float operator *(Vector3 V2);
 
 	 Vector3 operator *(float k);
 
@@ -36,5 +34,7 @@ public:
 
 	 Vector3 operator ^(Vector3 V2);
 
+	 Vector3 Rotate(Vector3 pt, int _angle);
+	 
 	 std::string ToString();
 };
